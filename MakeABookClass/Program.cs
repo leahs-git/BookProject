@@ -17,5 +17,9 @@ var book2 = new Book()
     ReleaseDate = DateOnly.FromDateTime(DateTime.Today)
 };
 
+Console.WriteLine(book2.ToString());
 
-Console.WriteLine(book2.ReleaseDate);
+//var book3 = new Book()
+//{
+
+//};
